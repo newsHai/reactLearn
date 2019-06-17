@@ -4,7 +4,7 @@ class ListItem extends Component {
     
     render() { 
         return ( 
-            <div onClick={this.handleDeleteItem.bind(this)}>{this.props.content}</div>
+            <div>{this.props.content}</div>
         );
     }
     handleDeleteItem(){
